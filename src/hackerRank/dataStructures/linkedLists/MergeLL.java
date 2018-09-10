@@ -6,6 +6,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Merging 2 ascending sorted Linked Lists into a ascendingly sorted Linked List without the use of a temporary Linked list
+ * @author gokul-4406
+ *
+ */
 public class MergeLL {
 	static class SinglyLinkedListNode {
         public int data;
