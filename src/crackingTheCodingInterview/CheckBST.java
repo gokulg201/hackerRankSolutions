@@ -22,13 +22,13 @@ public class CheckBST {
 		return true;
 	}
 	public static void main(String[] args){
-			Node<Integer> tree = new Node<Integer>(6);
-	        tree.left = new Node<Integer>(4);
-	        tree.right = new Node<Integer>(8);
+			Node<Integer> tree = new Node<Integer>(4);
+	        tree.left = new Node<Integer>(2);
+	        tree.right = new Node<Integer>(5);
 	        tree.left.left = new Node<Integer>(1);
 	        tree.left.right = new Node<Integer>(3);
-	        tree.right.right = new Node<Integer>(5);
-	        tree.right.left = new Node<Integer>(9);
+	        tree.right.right = new Node<Integer>(7);
+	        tree.right.left = new Node<Integer>(6);
 	        CheckBST check= new CheckBST();
 	        System.out.println(check.checkBST(tree));
 	}
